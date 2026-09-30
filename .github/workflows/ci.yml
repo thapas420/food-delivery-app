@@ -27,4 +27,4 @@ jobs:
         run: npm test
 
       - name: Build Docker image
-        run: docker build -t event-ticket-booking:${{ github.sha }} .git . a
+        run: docker build -t event-ticket-booking:${{ github.sha }} .
